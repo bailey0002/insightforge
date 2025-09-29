@@ -3,7 +3,7 @@ Overview
 
 Project: InsightForge, a SaaS for AI-driven business ideation, validation, and prototyping.
 Goal: Deliver an MVP in 6-8 weeks (by Nov 10-17, 2025) with X sentiment analysis, basic prototyping, and Next.js UI.
-Environment: Mac M2, SSD, Python 3.11 venv, open-source tools (Next.js, FastAPI, Supabase), cloud (Vercel).
+Environment: Mac M2, SSD (~/Desktop/insightforge), Python 3.11 venv, open-source tools (Next.js, FastAPI, Supabase), cloud (Vercel).
 Owner: Mark Bailey, with Grok as AI co-pilot.
 
 Build Phases
@@ -67,7 +67,7 @@ Done
 
 Set up Trello
 Create board, import JSON template
-Trello
+Trello (web)
 Sep 30
 To-Do
 
@@ -75,21 +75,49 @@ To-Do
 Set up GitHub
 Create repo, push initial structure
 GitHub
-Sep 30
-To-Do
+Sep 29
+Done
+
+
+Move Directory
+Relocate to ~/Desktop/insightforge
+Terminal
+Sep 29
+Done
+
+
+Update CLT
+Install CLT for Xcode 26.0
+Terminal
+Sep 29
+Done
+
+
+Update Xcode
+Update to Xcode 26.0 via App Store
+App Store
+Sep 29
+Done
+
+
+Create venv
+Set up Python 3.11 venv, test FastAPI
+Terminal
+Sep 29
+Done
+
+
+Clean Repo
+Remove unintended files from GitHub
+GitHub
+Sep 29
+Done
 
 
 Install Next.js
 Run npx create-next-app
 Terminal/VS Code
 Oct 1
-To-Do
-
-
-Install FastAPI
-Run pip install fastapi uvicorn in venv
-Terminal/VS Code
-Oct 2
 To-Do
 
 
@@ -102,18 +130,14 @@ To-Do
 
 Notes
 
-Tool Setup: Use Notion for docs, Trello for tasks, GitHub for code/artifacts. VS Code for editing, Terminal for commands.
-venv Isolation: Always activate .venv (source .venv/bin/activate) to avoid conflicts with other projects (e.g., ConfiDoc, Sonique).
-Grok Support: Prompt for code (e.g., X API integration), debugging, or artifact updates.
-Risks:
-Learning curve: Mitigated by Grok’s step-by-step commands.
-Dependency conflicts: Use .venv and check pip list before installs.
-Homebrew issues: Resolved (CLT/Xcode updated per Sep 29).
+Progress: Directory on SSD, Notion/VS Code installed, Trello pending, CLT/Xcode 26.0 updated, venv clean (fastapi, uvicorn), Homebrew clean, GitHub repo live (bailey0002/insightforge, pruned).
+Tool Setup: Notion for docs, Trello (web) for tasks, GitHub for code/artifacts, VS Code for editing, Terminal for commands.
+venv Isolation: source .venv/bin/activate, Conda base disabled to avoid conflicts with ConfiDoc/Sonique.
+Risks: None currently—repo cleaned, Homebrew fixed.
+Next Actions:
+Set up Trello board, import JSON.
+Start Next.js setup.
+Draft insightforge_specs.md.
+Sync artifacts to Notion.
 
 
-
-Next Steps
-
-Sep 29: Import Trello JSON, paste Charter into Notion.
-Sep 30: Run GitHub CLI setup (gh auth login), push repo.
-Oct 1: Initialize Next.js (npx create-next-app src/frontend).
